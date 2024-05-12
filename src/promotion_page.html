@@ -1,10 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-</head>
-<body>
+    <style>
+        .header-img {
+            height: 60px;
+            width: auto;
+        }
 
+        .header-bgimg {
+            height: 140px;
+            width: auto;
+            margin: auto;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+        
+        .helper-img {
+            height: 45px;
+            width: auto;
+            position: relative;
+            top: 12px;
+        }
+
+        .footer-img {
+            height: 16px;
+            width: auto;
+        }
+
+        .div-flex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .div-flex-nomin {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .highlight-strong {
+            font: bold 42px "Gmarket Sans", sans-serif;
+            margin: 0 5px;
+        }
+
+        .quote-span  {
+            margin-top: auto;
+            font: bold 60px "Gmarket Sans", sans-serif;
+            font-weight: 500;
+            color: #F5DF4D;
+            opacity: 40%;
+        }
+
+        .yellow-btn {
+            border-radius: 56px;
+            gap: 10px;
+            background: #FCEE21;
+            font: bold 14px "Gmarket Sans", sans-serif;
+        }
+
+        .yellow-btn:hover {
+            background: #F5DF4D;
+        }
+
+        header, footer{
+            margin: 40px 0;
+        }
+
+        button {
+            border-radius: 56px;
+            padding: 12px 20px;
+            margin: 5px 5px;
+            gap: 10px;
+            border-width: 0;
+        }
+
+        button:hover {
+            background: lightgray;
+            cursor: pointer;
+        }
+
+        input {
+            width: 110px;
+            margin: 5px 5px;
+            padding: 10px 9px;
+            border-radius: 6px;
+            border-width: 0;
+            text-align: center;
+            font: 14px "Gmarket Sans", sans-serif;
+        }
+
+        input::placeholder {
+            color: #BABCBE;
+        }
+        
+        section, header, footer {
+            padding: 20px 0;
+            align-content: center;
+            text-align: center;
+        }
+
+        header {
+            position: relative;
+        }
+
+        footer {
+            font: 10px "Gmarket Sans", sans-serif;
+        }
+
+        label, section > h1, header > h1, footer > h1 {
+            display: none;
+        }
+
+        strong {
+            display: inline-block;
+            text-wrap: nowrap;
+            font: bold 18px "Gmarket Sans", sans-serif;
+            font-weight: 700;
+        }
+
+        button > span {
+            font: bold 14px "Gmarket Sans", sans-serif;
+            font-weight: 1000;
+            color: #5B2386;
+        }
+        
+        em > span {
+            font: bold  20px "tvN Enjoystories", serif;
+            font-weight: 500;
+            color: #F5DF4D;
+        }
+
+        span {
+            font: 14px "Gmarket Sans Light", sans-serif;
+            display: inline-block;
+            text-wrap: nowrap;
+        }
+        
+        @media screen and (max-width: 420px)
+        {
+            .div-flex {
+                flex-direction: column;
+            }
+
+            .div-flex-nomin .yellow-btn {
+                width: 70%;
+            }
+            
+            .div-flex .yellow-btn {
+                width: 70%;
+            }
+        }
+
+        @font-face {
+            font-family: "tvN Enjoystories";
+            src: url('asset/fonts/tvN 즐거운이야기 Medium.ttf');
+        }
+
+        @font-face {
+            font-family: "Gmarket Sans";
+            src: url('asset/fonts/GmarketSansTTFMedium.ttf');
+        }
+
+        @font-face {
+            font-family: "Gmarket Sans Light";
+            src: url('asset/fonts/GmarketSansTTFLight.ttf');
+        }
+
+        @font-face {
+            font-family: "Gmarket Sans Bold";
+            src: url('asset/fonts/GmarketSansTTFBold.ttf');
+        }
+    </style>
+</head>
+<body style="background: #5B2386; color: white; font: 14px sans-serif">
+    <header>
+        <h1>1만 시간의 법칙</h1>
+        <img class="header-img" src="asset/img_one_hour.svg" alt="1만시간의 법칙 스타이링 된 텍스트">
+        <img class="header-bgimg" src="asset/backgound_img_circle.svg" alt="백그라운드 시계 모습">
+    </header>
+    <section>
+        <p>
+            <em><span>“연습은 어제의 당신보다</span><span>당신을 더 낫게 만든다.”</span></em>
+        </p>
+        <div class="div-flex">
+            <span class="quote-span">&#x201C</span>
+            <p>
+                <span><strong>1만 시간의 법칙</strong>은</span><br>
+                <span>어떤 분야의 전문가가 되기 위해서는</span><br>
+                <span>최소한 1만 시간의 훈련이 필요하다는 법칙이다.</span>
+            </p>
+            <span class="quote-span">&#x201D</span>
+        </div>
+    </section>
+    <section>
+        <h1>나의 목표 만들기</h1>
+        <form action="javascript:void(0);">
+            <div>
+                <span>나는 <label for="job">직업</label><input id="job" type="text" placeholder="예)프로그레밍"> 전문가가</span>
+                <span>될 것이다.</span>
+            </div>
+            <div>
+                <span>그래서 앞으로 매일 하루에</span>
+                <span><label for="time">시간</label><input id="time" type="text" placeholder="예)5시간"> 시간씩 훈련할 것이다.</span>
+            </div>
+            <div class="div-flex-nomin" style="margin: 40px 0;">
+                <button class="yellow-btn">
+                    <span>나는 며칠 동안 훈련을</span>
+                    <span>해야 1만 시간이 될까?</span>
+                </button>
+                <img class="helper-img" src="asset/img_tap_hand.svg" alt="커서로 클릭하기 이미지">
+            </div>
+        </form>
+    </section>
+    <section>
+        <h1>계산 결과</h1>
+        <div>
+            <div class="div-flex">
+                <span>당신은</span>
+                <strong class="highlight-strong">프로그레밍</strong>
+                <span>전문가가 되기 위해서</span>
+            </div>
+            <div class="div-flex-nomin">
+                <span>대략</span>
+                <strong class="highlight-strong">5110</strong>
+                <span>일 이상 훈련하셔야 합니다! :)</span>
+            </div>
+        </div>
+        <div style="margin: 40px 0;">
+            <button class="yellow-btn">
+                <span>훈련하러 가기</span>
+                <span>GO!GO!</span>
+            </button>
+            <button>
+                <span>공유하기</span>
+            </button>
+        </div>
+    </section>
+    <footer>
+        <h1>저작권 정보</h1>
+        <img class="footer-img" src="asset/weniv.svg" alt="(주) WeNiv">
+        <p>
+            ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.<br>
+            수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+        </p>
+    </footer>
 </body>
 </html>

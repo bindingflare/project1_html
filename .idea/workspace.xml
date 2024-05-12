@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3524c3-f35f-4218-b96b-435c800014d1" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/promotion_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_promotion_page.iml" afterDir="false" />
+    <list default="true" id="3b3524c3-f35f-4218-b96b-435c800014d1" name="변경" comment="Add assets">
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/GmarketSansTTFBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/GmarketSansTTFLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/GmarketSansTTFMedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/tvN 즐거운이야기 Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/tvN 즐거운이야기 Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asset/fonts/tvN 즐거운이야기 Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bindingflare&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bindingflare/project1_html&quot;,
+    &quot;accountId&quot;: &quot;1066fb7d-b348-4728-89bd-193d2d2a16a0&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -34,19 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/junnyb_notebook/IdeaProjects/project1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\junnyb_notebook\IdeaProjects\project1\src\asset\fonts" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,10 +91,34 @@
       <option name="presentableId" value="Default" />
       <updated>1715404687487</updated>
       <workItem from="1715404688648" duration="125000" />
+      <workItem from="1715404874551" duration="622000" />
+      <workItem from="1715489093495" duration="18899000" />
     </task>
+    <task id="LOCAL-00001" summary="Create promotion_page.html">
+      <option name="closed" value="true" />
+      <created>1715404909612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715404909612</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add assets">
+      <option name="closed" value="true" />
+      <created>1715405473937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715405473937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create promotion_page.html" />
+    <MESSAGE value="Add assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assets" />
   </component>
 </project>
