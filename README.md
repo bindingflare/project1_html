@@ -7,3 +7,7 @@ Learning to create html webpages.
 
 ## Resources
 - Using custom images (.svg) and fonts (local)
+
+## How to
+- git clone this repository
+- open landing.html (no other downloads required)
