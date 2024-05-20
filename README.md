@@ -10,4 +10,4 @@ Learning to create html webpages.
 
 ## How to
 - git clone this repository
-- open landing.html (no other downloads required)
+- open training-promotion-page.html (no other downloads required)
